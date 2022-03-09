@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;900&display=swap');
+
+/* font-family: 'Montserrat', sans-serif; */
+
+*, ::after, ::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: linear-gradient(rgba(47, 24, 16, 0.6), rgba(47, 24, 16, 0.6)), url(./media/fond.jfif) no-repeat;
+    background-size: cover; 
+    background-attachment: fixed;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 60px;
+
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+}
+h4{
+    color: #E6A756;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+.navbar{
+    background-color:#2f1810e1;
+}
+.navbar-nav li:hover{
+    color: #b3b1b0d7 !important;
+}
+/* casehome_1 */
+.bg-beige{
+    background-color: #F6E1C5;
+}
+.home{
+    right: -25%;
+}
+@media (max-width : 990px) {
+    .home{
+        position: static !important;
+    }
+    .btn-primary{
+        position: static !important;
+    }
+}
+@media (max-width : 768px){
+    .case_about, .caseproduct1{
+        position: static !important;
+    }
+    .case_about{
+       margin-top: 20px; 
+    }
+    .imgabout{
+        margin-top: 25px;
+    }
+    .caseproduct2{
+        margin-top: 125px;
+    }
+}
+.btn-primary{
+    background-color: #E6A756;
+    border: none;
+    color: black;
+    top: 90%;
+    right: 35%;
+}
+.btn-primary:hover{
+    background-color:#2f1810e1;
+}
+/* fin_casehome_1 */
+/* casehome_2 */
+#casehome_2{
+    background-color: #e6a856da;
+}
+.casehome_21{
+    border: 5px solid #e6a856da;
+}
+li, p{
+    font-family: cursive;
+}
+hr{
+    background-color: #e6a856;
+    padding: 1px;
+}
+.l1{
+    width: 30%;
+}
+.l2{
+    width: 50%;
+}
+.l3{
+    width: 75%;
+}
+/* fin-casehome_2 */
+/* caseabout */
+.case_about{
+    bottom: 100px;
+}
+/* fin-caseabout */
+/* caseproduct1 */
+.caseproduct1{
+    top: 75px;
+}
+.caseproduct2{
+    bottom: 100px;
+}
+/* fin-caseproduct1 */
+/* section_footer */
+
+footer{
+    background-color:#2f1810e1;
+}
+
+
+/* fin_section_footer */
+
+
+
+
+
+
+
+
+
